@@ -1,0 +1,12 @@
+<div></div>
+
+<h2>Enter a stock to be tracked</h2>
+<input type="text" ng-model="stock"/>
+<button ng-click="silentProtest(stock)" type="submit">Add</button>
+
+<div class="listContainer">
+  <ul class="list-group">
+    <li class="list-group-item" ng-repeat="stock in stocks">{{stock}}</li>
+  </ul>
+</div>
+<button  class="saveButton" ng-click="save()" ui-sref="showMeTheMoney" ng-if="stocks.length">Save</button>

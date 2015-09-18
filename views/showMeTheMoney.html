@@ -1,0 +1,20 @@
+<!-- <h4> -->
+  <marquee>
+    <span ng-repeat="stock in stocks">{{stock}} : ${{changes[stock].change}} /<span ng-class="{'red': changes[stock].red, 'green': !changes[stock].red}" class="percent"> {{changes[stock].percentChange}}% </span>
+  </span>
+</marquee>
+<!-- </h4> -->
+<h1>Tracked Stocks</h1>
+
+<ul class="list-group">
+  <li class="list-group-item" ng-repeat="stock in stocks">{{stock}} : ${{lastDayValues[stock]}} <i ng-click="remove(stock)" class="fa fa-times-circle"></i></li>
+</ul>
+
+<button ui-sref="add">Go Back</button>
+
+
+<div class="example1">
+
+
+
+</div>
