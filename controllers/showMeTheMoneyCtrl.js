@@ -21,7 +21,7 @@ app.controller("showMeTheMoneyCtrl", function($scope, $location, $http){
     })
   }
 
-var intervalID = setInterval(autoRecallCashForClunkersAutopocalypseAndCheese, 600000)
+var intervalID = setInterval(autoRecallCashForClunkersAutopocalypseAndCheese, 60000)
 autoRecallCashForClunkersAutopocalypseAndCheese()
 $scope.remove = function(stock){
   $scope.stocks.splice($scope.stocks.indexOf(stock), 1);

@@ -1,6 +1,6 @@
 app.config(function($stateProvider, $urlRouterProvider) {
 
-  $urlRouterProvider.otherwise('/home');
+  $urlRouterProvider.otherwise('home');
 
   $stateProvider
 
@@ -21,5 +21,4 @@ app.config(function($stateProvider, $urlRouterProvider) {
     templateUrl: "./views/showMeTheMoney.html",
     controller: "showMeTheMoneyCtrl"
   })
-
 })

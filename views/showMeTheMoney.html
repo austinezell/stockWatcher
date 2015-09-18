@@ -1,9 +1,6 @@
-<!-- <h4> -->
-  <marquee>
-    <span ng-repeat="stock in stocks">{{stock}} : ${{changes[stock].change}} /<span ng-class="{'red': changes[stock].red, 'green': !changes[stock].red}" class="percent"> {{changes[stock].percentChange}}% </span>
-  </span>
+<marquee>
+  <span ng-repeat="stock in stocks">{{stock}} : ${{changes[stock].change}} /<span ng-class="{'red': changes[stock].red, 'green': !changes[stock].red}" class="percent"> {{changes[stock].percentChange}}% </span>
 </marquee>
-<!-- </h4> -->
 <h1>Tracked Stocks</h1>
 
 <ul class="list-group">
