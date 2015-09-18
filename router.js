@@ -21,4 +21,5 @@ app.config(function($stateProvider, $urlRouterProvider) {
     templateUrl: "./views/showMeTheMoney.html",
     controller: "showMeTheMoneyCtrl"
   })
+
 })
