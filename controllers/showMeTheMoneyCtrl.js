@@ -4,7 +4,6 @@ app.controller("showMeTheMoneyCtrl", function($scope, $location, $http){
   $scope.lastDayValues= {};
   $scope.changes = {};
   function autoRecallCashForClunkersAutopocalypseAndCheese(){
-    console.log("the duck chuck the muck from the buck while he clucked and f...");
     $scope.stocks.forEach(function(stock){
       $http.jsonp("http://dev.markitondemand.com/Api/v2/Quote/jsonp?symbol="+stock+"&callback=JSON_CALLBACK")
       .success (function(data) {

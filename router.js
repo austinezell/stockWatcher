@@ -4,14 +4,8 @@ app.config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
 
-  .state('home', {
-    url: '/home',
-    templateUrl: './views/start.html',
-  })
-
-
-  .state("add", {
-    url: "/add",
+  .state("home", {
+    url: "/home",
     templateUrl: "./views/add.html",
     controller: "addCtrl"
   })

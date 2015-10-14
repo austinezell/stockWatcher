@@ -1,5 +1,5 @@
 body {
-  background-color:rgb(120, 26, 26);
+  background-color: rgba(60, 72, 75, 0.83);
   color: rgb(224, 192, 119);
 }
 ul{
@@ -18,19 +18,6 @@ button{
   background-color: rgb(59, 41, 60);
 }
 
-.example1 {
-  height: 50px;
-  overflow: hidden;
-  position: relative;
-}
-.example1 h3{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  line-height: 50px;
-  animation: example1 15s linear infinite;
-}
 
 input{
   color: black;
