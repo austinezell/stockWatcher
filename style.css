@@ -48,3 +48,9 @@ li {
   background-image: linear-gradient(bottom, #383838  0%, #444444  49%, #555 50%, #555 100%);
   width:145px;
 }
+
+.githublink {
+  position: fixed;
+  bottom: 10%;
+  background-color: ghostwhite;
+}

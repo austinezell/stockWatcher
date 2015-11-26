@@ -9,5 +9,7 @@
     <li class="list-group-item" ng-repeat="stock in stocks">{{stock}}</li>
   </ul>
 </div>
-<h3>Click Here to View these Stocks</h3>
-<button  class="saveButton" ng-click="save()" ui-sref="showMeTheMoney" ng-if="stocks.length">View</button>
+<div ng-if="stocks.length">
+  <h3>Click Here to View these Stocks</h3>
+  <button  class="saveButton" ng-click="save()" ui-sref="showMeTheMoney">View</button>
+</div>
