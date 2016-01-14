@@ -1,15 +1,16 @@
-<div></div>
+<div class="table-cell">
 
-<h2>Enter a stock to track</h2>
-<input type="text" ng-model="stock"/>
-<button ng-click="silentProtest(stock)" type="submit">Add</button>
+  <h2>Enter a stock to track</h2>
+  <input type="text" ng-model="stock"/>
+  <button ng-click="silentProtest(stock)" type="submit">Add</button>
 
-<div class="listContainer">
-  <ul class="list-group">
-    <li class="list-group-item" ng-repeat="stock in stocks">{{stock}}</li>
-  </ul>
-</div>
-<div ng-if="stocks.length">
-  <h3>Click Here to View these Stocks</h3>
-  <button  class="saveButton" ng-click="save()" ui-sref="showMeTheMoney">View</button>
+  <div class="listContainer">
+    <ul class="list-group">
+      <li class="list-group-item" ng-repeat="stock in stocks">{{stock}}</li>
+    </ul>
+  </div>
+  <div ng-if="stocks.length">
+    <h3>Click Here to View these Stocks</h3>
+    <button  class="saveButton" ng-click="save()" ui-sref="showMeTheMoney">View</button>
+  </div>
 </div>
